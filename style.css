@@ -13,3 +13,10 @@ body {
 main {
   flex: 1;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 36px 0;
+  text-align: center;
+}
