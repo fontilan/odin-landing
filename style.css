@@ -23,10 +23,16 @@ main {
 
 header {
   background-color: var(--color-dark);
+  width: 100%;
+}
+.header {
   color: var(--color-light);
   display: flex;
+  margin: auto;
   justify-content: space-between;
+  background-color: var(--color-dark);
   padding: 24px 0;
+  width: 960px;
 }
 
 .header-logo {
