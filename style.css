@@ -25,12 +25,13 @@ header {
   background-color: var(--color-dark);
   width: 100%;
 }
+
 .header {
+  background-color: var(--color-dark);
   color: var(--color-light);
   display: flex;
-  margin: auto;
   justify-content: space-between;
-  background-color: var(--color-dark);
+  margin: auto;
   padding: 24px 0;
   width: 960px;
 }
@@ -45,6 +46,34 @@ header {
   display: flex;
   gap: 24px;
   list-style-type: none;
+}
+
+.hero-section {
+  background-color: var(--color-dark);
+}
+
+.hero-container {
+  display: flex;
+  margin: auto;
+  width: 960px;
+}
+
+.hero-text {
+  color: var(--color-light);
+  flex: 1;
+}
+
+.hero-subtext {
+  color: var(--color-grey);
+  font-size: 14px;
+}
+
+.hero-image {
+  background-color: var(--color-grey);
+  color: var(--color-light);
+  flex: 1;
+  outline: auto;
+  text-align: center;
 }
 
 footer {
