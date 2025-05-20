@@ -1,6 +1,7 @@
 :root {
   --color-blue: #3882f6;
   --color-dark: #1f2937;
+  --color-dark-grey: #6d747d;
   --color-grey: #e5e7eb;
   --color-light: #f9faf8;
 }
@@ -50,12 +51,14 @@ header {
 
 .hero-section {
   background-color: var(--color-dark);
+  padding: 100px 0;
 }
 
 .hero-container {
   display: flex;
   margin: auto;
   width: 960px;
+  gap: 24px;
 }
 
 .hero-text {
@@ -66,14 +69,29 @@ header {
 .hero-subtext {
   color: var(--color-grey);
   font-size: 14px;
+  margin-top: 12px;
+}
+
+.hero-button {
+  margin-top: 12px;
+  padding: 6px 24px;
+  color: var(--color-light);
+  background-color: var(--color-blue);
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
 }
 
 .hero-image {
-  background-color: var(--color-grey);
+  background-color: var(--color-dark-grey);
   color: var(--color-light);
+  display: flex;
   flex: 1;
-  outline: auto;
-  text-align: center;
+}
+
+.hero-image > p {
+  margin: auto;
+  font-size: 14px;
 }
 
 footer {
