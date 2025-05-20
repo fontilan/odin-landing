@@ -23,6 +23,10 @@ main {
   flex: 1;
 }
 
+/*
+header
+ */
+
 header {
   background-color: var(--color-dark);
   width: 100%;
@@ -48,7 +52,12 @@ header {
   display: flex;
   gap: 24px;
   list-style-type: none;
+  color: var(--color-grey);
 }
+
+/* 
+hero
+ */
 
 .hero-section {
   background-color: var(--color-dark);
@@ -94,6 +103,10 @@ header {
   margin: auto;
   font-size: 14px;
 }
+
+/* 
+footer
+ */
 
 footer {
   background-color: var(--color-dark);
