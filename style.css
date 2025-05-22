@@ -107,6 +107,43 @@ hero
 }
 
 /* 
+images
+ */
+
+.images-container {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  margin-bottom: 48px;
+  margin-top: 36px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.image-with-subtext {
+  max-width: 160px;
+}
+
+.image {
+  border-radius: 16px;
+  border: 4px var(--color-blue) solid;
+  display: block;
+  height: 160px;
+  width: 160px;
+}
+
+.subtext {
+  color: var(--color-dark-grey);
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* 
 footer
  */
 
