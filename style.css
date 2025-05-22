@@ -49,10 +49,10 @@ header {
 
 .header-links {
   align-items: center;
+  color: var(--color-grey);
   display: flex;
   gap: 24px;
   list-style-type: none;
-  color: var(--color-grey);
 }
 
 /* 
@@ -66,30 +66,32 @@ hero
 
 .hero-container {
   display: flex;
+  gap: 24px;
   margin: auto;
   width: 960px;
-  gap: 24px;
 }
 
 .hero-text {
   color: var(--color-light);
   flex: 1;
+  font-size: 28px;
 }
 
 .hero-subtext {
   color: var(--color-grey);
-  font-size: 14px;
-  margin-top: 12px;
+  font-size: 16px;
+  margin-top: 6px;
 }
 
 .hero-button {
-  margin-top: 12px;
-  padding: 6px 24px;
-  color: var(--color-light);
   background-color: var(--color-blue);
   border-radius: 6px;
   border: none;
+  color: var(--color-light);
+  font-size: 14px;
   font-weight: bold;
+  margin-top: 12px;
+  padding: 6px 24px;
 }
 
 .hero-image {
