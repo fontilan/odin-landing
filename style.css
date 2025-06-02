@@ -176,6 +176,46 @@ quote
 }
 
 /* 
+action
+ */
+
+.action-container {
+  align-items: center;
+  background-color: var(--color-blue);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+  padding: 50px 120px;
+  width: 960px;
+}
+
+.action-text {
+  color: var(--color-light);
+}
+
+.action-text-maintext {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.action-text-subtext {
+  opacity: 0.75;
+}
+
+.action-button {
+  background-color: var(--color-blue);
+  border-radius: 6px;
+  border: 2px solid var(--color-light);
+  color: var(--color-light);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  height: fit-content;
+  padding: 6px 30px;
+}
+
+/* 
 footer
  */
 
