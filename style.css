@@ -49,10 +49,14 @@ header {
 
 .header-links {
   align-items: center;
-  color: var(--color-grey);
   display: flex;
   gap: 24px;
   list-style-type: none;
+}
+
+a {
+  color: var(--color-grey);
+  text-decoration: none;
 }
 
 /* 
@@ -92,6 +96,7 @@ hero
   border-radius: 6px;
   border: none;
   color: var(--color-light);
+  cursor: pointer;
   font-size: 16px;
   font-weight: 700;
   margin-top: 12px;
